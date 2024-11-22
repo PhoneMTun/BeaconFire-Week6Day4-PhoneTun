@@ -1,0 +1,17 @@
+<div class = "tab">
+    <button (click)="setActiveTab('London')">London</button>
+    <button (click)="setActiveTab('Paris')">Paris</button>
+    <button (click)="setActiveTab('Tokyo')">Tokyo</button>
+</div>
+<div *ngIf="activeTab==='London'">
+    <h2>London</h2>
+    <p>London is the capital city of England.</p>
+</div>
+<div *ngIf="activeTab==='Paris'">
+    <h2>Paris</h2>
+    <p>Paris is the capital city of France.</p>
+</div>
+<div *ngIf="activeTab==='Tokyo'">
+    <h2>Tokyo</h2>
+    <p>Tokyo is the capital city of Japan.</p>
+</div>

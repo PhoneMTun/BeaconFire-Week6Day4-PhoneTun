@@ -1,0 +1,25 @@
+.tab {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+button:focus {
+  outline: none;
+  background-color: #ccc;
+}
+
+div {
+  margin-top: 20px;
+}
